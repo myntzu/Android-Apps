@@ -1,7 +1,7 @@
 
 package com.bignerdranch.android.geoquiz;
 
-import android.os.CountDownTimer; //special feature but couldn't manage to work on it in time
+import android.os.CountDownTimer; 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -174,7 +174,7 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
 
-//  the dummy page appears before the quiz, didn't have enough time to work on this:
+//  the dummy page appears before the quiz, *REVISION REQUIRED:
 //
 //        mResultSummary = (Button) findViewById(R.id.resultSummary);
 //            Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
