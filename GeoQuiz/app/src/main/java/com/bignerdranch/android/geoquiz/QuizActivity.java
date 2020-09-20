@@ -1,4 +1,3 @@
-//I'm not proud of this app but I really tried my best :<
 
 package com.bignerdranch.android.geoquiz;
 
