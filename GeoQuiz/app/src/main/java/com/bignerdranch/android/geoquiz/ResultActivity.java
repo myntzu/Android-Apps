@@ -1,5 +1,4 @@
-//this was supposed to be the result summary page but I couldnt
-//manage to complete this in time T-T
+//this was supposed to be the result summary page
 
 package com.bignerdranch.android.geoquiz;
 
