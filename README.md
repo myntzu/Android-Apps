@@ -1,2 +1,3 @@
 # QuizApp
-Editing / Revision in Progress
+Individual Assignment for Mobile App. Development Course (2020) - Codes are currently under revision to edit and update\
+To preview codes: open files -> app -> src -> main -> java/com/....
