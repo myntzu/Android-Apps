@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/quiz_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="25dp"
+        android:layout_gravity="right"
+        android:text="00:60"/>
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="24dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/false_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/prev1"/>
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BA160C"
+        android:textColor="#FFFFFF"
+        android:text="@string/cheat_button" />
+
+    <TextView
+        android:id="@+id/tokens_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="You have 3 tokens left!"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Play Again" />
+
+    <Button
+        android:id="@+id/resultSummary"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="View Results"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".QuizActivity"-->
+    <!--tools:layout_editor_absoluteY="81dp">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->

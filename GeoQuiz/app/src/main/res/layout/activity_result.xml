@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/resultSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Questions Answered: 6"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/totalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Score: 83%"
+        android:textSize="15dp"
+        android:layout_marginTop="60dp"/>
+
+
+    <TextView
+        android:id="@+id/totalCheats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Times Cheated: 3"
+        android:textSize="15dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY AGAIN"
+        android:textSize="18dp"
+        android:layout_marginTop="80dp"
+        android:onClick="returnTop"/>
+
+
+
+</LinearLayout>
